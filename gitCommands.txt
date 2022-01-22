@@ -1,0 +1,36 @@
+//some common git commands and procedures
+
+//////////////////////////////////////////////
+//To set up REPO with git.  ONE TIME ONLY.  
+//--- ensure folder location in terminal 
+
+git init //initilizes git
+
+//change from name from master to main
+git branch -m main
+
+//1st time add of all files in folder
+git add .
+
+//commit and leave a note on what you are commtting (or updating in future)
+git commit -m "message here"
+
+//For 1st time send out the folder to git
+git push
+//----Now make new repo on git.  Copy the 3 lines of code to push to new Repo URL (the return deal)
+PASTE THE CODE INTO TERMINAL AND ENTER.  REPO SUCCESS
+
+///////////////////////////////////////////
+
+//update an repo connected with git already
+git add . && git commit -m "message"&& git push
+
+//tells what you can push or fetch
+git remote -v
+
+//get latest updates
+git fetch
+
+//Latest version of code
+git pool
+

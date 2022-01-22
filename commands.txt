@@ -1,0 +1,100 @@
+//command keys and shortcuts for Mac in VS Code Terminal and more 
+
+//fill words litterally anywhere
+"tab"
+
+//apple finder search anywhere on Mac
+command "space"
+
+//Open seetings anywhere on Mac
+command ,
+
+
+
+//Open VS code from apple Terminal.  SET FOLDER DEST to open
+code .
+
+//open VS code in previous folder. rare usage
+code ..
+
+//Take you home
+cd"space"
+
+//toggle from file editor to terminal
+command j
+
+//Make file in Terminal.  NOTE LOCATION.
+mkdir filename.js 
+mkdir filename.txt
+
+//Make file or update when last "touched"
+touch filename.js
+touch filename.py
+
+//Run a file in location folder
+node filename.js
+
+//move selected lines of code / text
+option arrow-up / arrow-down
+
+//make a copy of a line of code / text
+option shift arrow-up / arrow-down
+
+
+// return to home..Terminal
+~
+
+//go to parent folder..Terminal
+..
+
+//where am i..Terminal
+.
+
+//show contents of file ..Terminal
+ls
+
+//shows permission on files...Terminal
+ll
+
+//tell folder location
+pwd
+
+//Take you back to last place you were in
+command tab
+
+//local terminal in js???
+cnrtl ~
+
+//select all
+command a
+
+//format code based off of formatter
+shift option f
+
+
+//comments out or in selected text 
+command /
+
+//Exit from  VS Terminal
+cntrl c + cntrl c
+
+//save file 
+command s
+
+//BE CAREFUL. delete folder in certain file***BE SCARED OF rm
+rm -rf
+
+//BE CAREFUL. Super User Do Override. overrides computer on deleting a file or worse
+sudo rm -rf 
+
+//kill anything.  Like endless loop running
+ctrl c
+
+//grab all the same word
+command d 
+
+//grab all same word then grab next same word, then grabd the next same word
+command d,  command d, command d 
+
+//
+
