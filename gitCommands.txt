@@ -22,8 +22,11 @@ PASTE THE CODE INTO TERMINAL AND ENTER.  REPO SUCCESS
 
 ///////////////////////////////////////////
 
+//Pull files added on git to add localy on VS Code
+git pull
+
 //update an repo connected with git already
-git add . && git commit -m "message"&& git push
+git add . && git commit -m "message" && git push
 
 //tells what you can push or fetch
 git remote -v

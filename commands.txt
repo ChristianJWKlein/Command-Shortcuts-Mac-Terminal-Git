@@ -9,7 +9,9 @@ command "space"
 //Open seetings anywhere on Mac
 command ,
 
-
+//GET OUT OF VIM anywhere
+command : q a
+command : w q //alt. method
 
 //Open VS code from apple Terminal.  SET FOLDER DEST to open
 code .
