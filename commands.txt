@@ -80,6 +80,12 @@ command /
 //Exit from  VS Terminal
 cntrl c + cntrl c
 
+//QUIT ANY UNWANTED RUNNING OPERATION
+cntrl c + (maybe) cntrl c (again)
+
+//STOP API PORT before trying to RUN CODE IN VS
+cntrl c + (maybe) cntrl c (again)
+
 //save file 
 command s
 

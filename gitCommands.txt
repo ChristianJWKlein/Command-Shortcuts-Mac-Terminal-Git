@@ -1,26 +1,37 @@
-//some common git commands and procedures
+//some common git commands and procedures with MAC NODE in *TERMINAL*
 
 //////////////////////////////////////////////
-//To set up REPO with git.  ONE TIME ONLY.  
-//--- ensure folder location in terminal 
+//TO SETUP REPOSITORY WITH GIT.  *START* (ONE TIME ONLY PER FOLDER).  
+//--- 1. ENSURE FOLDER LOCATION in MAC terminal or VS terminal.
+//        - command line: ls //shows folders/files in "cd": current directory
+//        - cd filename //Changes Directory to filename
 
-git init //initilizes git
+//---2. initilize to connect with Git Hub
+git init 
 
-//change from name from master to main
+//---3. change name from master to main
 git branch -m main
 
-//1st time add of all files in folder
-git add .
+//---4. add of all files in folder && commit -m "message of work done for update"
+git add . && git commit -m "message here"
 
-//commit and leave a note on what you are commtting (or updating in future)
-git commit -m "message here"
+//---5. GO TO YOUR GIT HUB REPO SECTION AND CLICK ADD NEW.
+       - If Open Source Practice, Simply specify a unique name for the repostion and CREATE it. 
+       - COPY the Code Block to "Push New Repository from Local Device"
+       - Go back to Terminal or VS terminal
+       - PASTE in Command Line and ENTER
 
-//For 1st time send out the folder to git
-git push
-//----Now make new repo on git.  Copy the 3 lines of code to push to new Repo URL (the return deal)
-PASTE THE CODE INTO TERMINAL AND ENTER.  REPO SUCCESS
+//---6. Your New Repo should be visible on Git Hub.  Simply Refresh (Command R) your Git Hub webpage you ///COPIED your last command from.
 
+*END* (ONE TIME ONLY PER FOLDER).
+
+//---7. IN CORRECT FOLDER update any additions or Mods to the Repo that was made.
+git add . && git commit -m "message" && git push
 ///////////////////////////////////////////
+
+
+
+
 
 //Pull files added on git to add localy on VS Code
 git pull
