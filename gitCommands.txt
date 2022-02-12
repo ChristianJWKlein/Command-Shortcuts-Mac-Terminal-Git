@@ -48,3 +48,23 @@ git fetch
 //Latest version of code
 git pool
 
+//current status 
+git status
+
+//shows brances. (command q to quit)
+git branch
+
+//make a copy of main branch... -b will see if specified branch exists, if not, it will create it.
+git checkout -b new-branch-here
+
+//from ***.. git main....***... merge changes of branch
+git merge new-branch-name
+
+//delete a branch
+git branch -d new-branch-here
+
+//Make a PR 
+git push branch-name
+
+//
+
