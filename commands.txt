@@ -141,3 +141,22 @@ command + shift + c
 
 //help autofill correctly
 cnrtl + "space"
+
+//open up inspector
+f12
+
+//auto import function, const 
+command >
+
+//hide explorer
+command b
+
+//makes hyperlink and takes you to function
+hover over and command
+
+//find url of browser
+gcloud app browse
+
+//???
+command kt
+
