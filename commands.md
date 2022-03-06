@@ -19,15 +19,19 @@
 
     2. In file that pops up, scroll up the the section"theme".
 
-    3.  Follow link for git rep of themes. Quit then reopen terminal to see it applied.
+    3.  Follow link for git Repo of themes.
+
+    4.
+
+    5.  Quit then Reopen Terminal to see it applied.
 
 ### GET OUT OF VIM anywhere
 
     command : q a
 
-command : w q //alt. method
+    command : w q (alt. method)...Test
 
-### Open VS code from apple Terminal. SET FOLDER DEST to open
+### Ensure Directory- Open VS Code from Terminal
 
     code .
 
@@ -39,21 +43,21 @@ command : w q //alt. method
 
     cd "space"
 
-### toggle from file editor to terminal
+### toggle from Editor to Terminal in VS Code
 
     command j
 
-### Make file in Terminal. NOTE LOCATION.
+### Make Folder in Terminal. NOTE LOCATION.
 
-    mkdir filename.js
+     mkdir folder-name
 
-mkdir filename.txt
+     mkdir folder-name
 
 ### Make file or update when last "touched"
 
     touch filename.js
 
-touch filename.py
+    touch filename.py
 
 ### Run a file in location folder
 
@@ -67,29 +71,29 @@ touch filename.py
 
     option shift arrow-up / arrow-down
 
-### return to home..Termin al
+### return to home in Terminal
 
-~
+    ~
 
-### go to parent folder..Termina l
+### go to parent folder..Terminal
 
-..
+    ..
 
-### where am i..Termin al
+### where am i..Termial
 
-.
+    .
 
 ### show contents of file ..Termina l
 
-ls
+    ls
 
 ### shows permission on files...Termina l
 
-ll
+    ll
 
 ### tell folder location
 
-pwd
+    pwd
 
 ### Take you back to last place you were in
 
@@ -115,14 +119,6 @@ pwd
 
     cntrl c + cntrl c
 
-### QUIT ANY UNWANTED RUNNING OPERATION
-
-    cntrl c + (maybe) cntrl c (again)
-
-### STOP API PORT before trying to RUN CODE IN VS
-
-    cntrl c + (maybe) cntrl c (again)
-
 ### save file
 
     command s
@@ -137,37 +133,41 @@ pwd
 
 ### kill anything. Like endless loop running
 
-    ctrl c
+    ctrl c (maybe twice)
 
-### grab all the same word
+### Grab all the same word
 
     command d
 
-### grab all same word then grab next same word, then grab the next same word
+### Grab all same word then grab next same word, then grab the next same word
 
     command d, command d, command d
 
-### wrap text
+### Put Cursor The Way You Like
 
-    opt = z
+    opt " cursor select"
+
+### Wrap text
+
+    opt z
 
 ### Open another file in VS Code in a split window
 
     opt + select (filename)
 
-### toggle words
+### Toggle words
 
     opt + arrows
 
-### toggle to start or end of line
+### toggle to Start or End of line
 
     command + arrows
 
-### add cursers to delete multiple code lines
+### Add cursers to delete multiple code lines
 
     option + command, arrow up/down
 
-### add emoji
+### Add emoji
 
     fnc or cnrtl + command + 'space'
 
@@ -209,12 +209,16 @@ f12
 
     hover over and command
 
-### find url of browser
-
-    gcloud app browse
-
-### ???
+### Test this... Maybe for
 
     command kt
 
-//
+### Toggle Explorer Menu Bar on Left Side... VS Code
+
+    command b
+
+### Takes You to settings anywhere
+
+    command <
+
+###

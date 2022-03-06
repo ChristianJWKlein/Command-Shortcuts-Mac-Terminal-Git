@@ -73,7 +73,6 @@
 
        git branch -d new-branch-here
 
-
 ### Make a PR..(Pull request)
 
        git push branch-name
@@ -81,3 +80,5 @@
 ### Get rid of changes made
 
        git stash
+
+###

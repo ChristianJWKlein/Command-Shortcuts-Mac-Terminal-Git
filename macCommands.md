@@ -1,5 +1,13 @@
 # Basic Macbook Comands
 
+### Pan Through Open Full Screens
+
+    cntrl arrows
+
+### Pan through Tabs in Browser
+
+    command option arrows
+
 ### Fill words litterally almost anywhere
 
     "tab"
