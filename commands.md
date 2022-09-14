@@ -221,4 +221,6 @@ f12
 
     command <
 
-###
+### Go To Incognito Mode
+
+    command shift n
