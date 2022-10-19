@@ -3,3 +3,7 @@
 ### Create Multiple Folders. Makes space folder with nested subfolder neptune
 
     mkdir -p space/neptune
+
+### Go to the Home Directory
+
+    cd ~
