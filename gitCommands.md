@@ -81,4 +81,6 @@
 
        git stash
 
-###
+### Git doesn't exist...Probably X-Code on Mac. Either Update in Terminal or in App
+
+       xcode-select —install
