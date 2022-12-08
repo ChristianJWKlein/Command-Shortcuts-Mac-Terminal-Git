@@ -224,3 +224,7 @@ f12
 ### Go To Incognito Mode
 
     command shift n
+
+### View page source
+
+    command option us
